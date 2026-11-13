@@ -1,4 +1,4 @@
-FROM python:3.13-slim
+FROM python:3.15-slim
 
 # Imagen para Azure Container Apps (la publica pipelines/build.yml en GHCR) y para docker run local.
 # En AWS Lambda no se usa: el pipeline sube un zip con app.py, sus dependencias y run.sh.
